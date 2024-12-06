@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boksey</title>
+    <link rel="icon" href="images.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="demo.js"></script>
+    <div class="nav">
+       <h1>Buksey</h1>
+    </div>
+
+    <div class="container">
+        <div class="book">
+        <h2> Harry Potter</h2>
+        <h5>J.K.Rowling</h5>
+        <p>A magical adventure of friendship, bravery, and discovering destiny as young wizard Harry Potter attends Hogwarts School of Witchcraft.</p>
+        <button onclick="del(event)">Delete</button>
+        
+        
+    </div>
+    </div>
+    <div class="overlay">
+    </div>
+    <div class="box">
+        <h2>Add book</h2>
+        <form  id="studentform">
+            <input type="text" placeholder="Booktitle" id="book-title">
+            <input type="text" placeholder="BookAuthor " id="book-author">
+            <textarea name="" placeholder="short dicription" id="dicription"></textarea>
+            <button id="Add">Add</button>
+            <button id="Cancel">Cancel</button>
+        </form>
+    </div>
+
+    <button class="btn" id="popup">+</button>
+
+    <script src="demo.js"></script>
+
+</body>
+</html>
